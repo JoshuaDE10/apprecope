@@ -1,4 +1,4 @@
-<h1>Precios Internacionelas</h1>
+<h1>Precios Internacionales</h1>
 <div class="container">
     <h2>Periodos</h2>
     <table class="table">
@@ -8,12 +8,11 @@
                 <th>Precios</th>
             </tr>
         </thead>
-            <tbody>
-                <tr *ngFor="let materiales of precioInternacional.materiales">
-                    <td>{{ materiales.desde}}</td>
-                    <td>{{ materiales.hasta}}</td>
-
-                </tr>
-            </tbody>
+        <tbody>
+            <tr *ngFor="let material of precioInternacional.materiales">
+                <td>{{ material.nomprod }}</td>  <!-- Muestra el nombre del producto -->
+                <td>{{ material.precios[0] }}</td> <!-- Muestra el primer precio -->
+            </tr>
+        </tbody>
     </table>
 </div>

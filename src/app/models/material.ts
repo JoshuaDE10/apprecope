@@ -1,8 +1,6 @@
 export interface Material {
+        id: string;
+        nomprod: string;
+        precios: number[];
+    }
     
-        "id": string,
-        "nomprod": string,
-        "precios": number[]
-    
-
-}

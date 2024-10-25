@@ -1,6 +1,5 @@
-export interface Periodo{
-    "id": string,
-    "nomprod": string,
-    "precios": number[]
-
+export interface Periodo {
+    id: string;
+    nomprod: string;
+    precios: number[];
 }
