@@ -1,0 +1,19 @@
+<h1>Precios Internacionelas</h1>
+<div class="container">
+    <h2>Periodos</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Productos</th>
+                <th>Precios</th>
+            </tr>
+        </thead>
+            <tbody>
+                <tr *ngFor="let materiales of precioInternacional.materiales">
+                    <td>{{ materiales.desde}}</td>
+                    <td>{{ materiales.hasta}}</td>
+
+                </tr>
+            </tbody>
+    </table>
+</div>
