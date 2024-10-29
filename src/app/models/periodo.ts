@@ -1,5 +1,4 @@
 export interface Periodo {
-    id: string;
-    nomprod: string;
-    precios: number[];
+    desde: string;
+    hasta: string;
 }
